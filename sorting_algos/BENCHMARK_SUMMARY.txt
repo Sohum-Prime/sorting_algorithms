@@ -1,0 +1,38 @@
+SORTING ALGORITHM BENCHMARK SUMMARY
+============================================================
+
+Generated: 2025-10-15T01:53:46.041941
+
+OVERALL WINNER (Random Data, Large Inputs):
+  Heap Sort - Average time: 0.003598s
+
+BEST FOR ALREADY SORTED DATA:
+  Insertion Sort - 0.000003s on size 1000
+
+STATISTICS:
+------------------------------------------------------------
+Heap Sort:
+  Average: 0.001605s
+  Min: 0.000009s
+  Max: 0.007944s
+
+Insertion Sort:
+  Average: 0.125391s
+  Min: 0.000003s
+  Max: 1.440898s
+
+Merge Sort:
+  Average: 0.001835s
+  Min: 0.000014s
+  Max: 0.012830s
+
+Quick Sort:
+  Average: 0.003163s
+  Min: 0.000027s
+  Max: 0.020280s
+
+Selection Sort:
+  Average: 0.211569s
+  Min: 0.000005s
+  Max: 1.025955s
+
