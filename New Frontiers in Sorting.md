@@ -1,6 +1,6 @@
-New Challenges and Algorithmic Innovations in Sorting Problems
+# New Challenges and Algorithmic Innovations in Sorting Problems
 
-Introduction
+## Introduction
 
 Sorting is a fundamental operation in computer science, classically considered a solved problem 
 with well-known algorithms (e.g. quicksort, mergesort) reaching the optimal $O(n \log n)$ 
@@ -14,7 +14,7 @@ these frontier problems in sorting and delving into one in detail – an AI-driv
 to discovering faster sorting algorithms. I will explain what this problem entails and summarise 
 the AlphaDev paper’s contributions to the topic.
 
-Sorting on Modern Hardware
+## Sorting on Modern Hardware
 
 One area of active research is designing sorting algorithms tailored for massively parallel 
 hardware, such as graphics processing units (GPUs) and distributed cloud systems. Traditional 
@@ -38,7 +38,7 @@ sorting 256 million 32-bit keys – about 1.5× faster than the CUB library’s 
 sort. This illustrates that even though sorting is a classic problem, hardware-specific constraints 
 (like memory bandwidth and parallel thread utilisation) create ongoing opportunities for algorithmic advances.
 
-AI-Discovered Sorting Algorithms (Autonomous Algorithm Discovery)
+## AI-Discovered Sorting Algorithms (Autonomous Algorithm Discovery)
 
 Another exciting frontier is the use of artificial intelligence to discover improved sorting 
 algorithms. Instead of humans hand-crafting a new sort routine, can an AI agent autonomously 
@@ -100,7 +100,7 @@ The result is not a new complexity class of sorting, but a concrete constant-fac
 that matters at scale. It demonstrates that even problems long thought “essentially solved” like 
 sorting still have room for innovation when viewed through a new lens.
 
-Broader Implications and Future Directions
+## Broader Implications and Future Directions
 
 On the hardware side, as GPUs, TPUs, and specialised accelerators become ubiquitous, algorithms must be revisited to exploit massive parallelism and cope with hierarchical memory. Research into parallel sorting (including multi-GPU and distributed sorting) is likely to remain active, ensuring that sorting of huge datasets can be done as efficiently as possible in cloud and edge computing environments. Techniques like radix sort (leveraging integer representations) and sample sort (for distributed data) will evolve alongside hardware advances.
 
@@ -113,7 +113,7 @@ synthesis), we could see more instances of AI discovering improved algorithms or
 Notably, DeepMind’s earlier AlphaTensor used a similar approach to find better matrix 
 multiplication algorithms, another domain where human progress had stalled.
 
-References
+## References
 
 1. Daniel J. Mankowitz et al. (2023). "Faster sorting algorithms discovered using deep reinforcement learning." Nature, 618: 257–263. DOI: 10.1038/s41586-023-06004-9
 
